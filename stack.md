@@ -5,17 +5,20 @@
 
 
 Stack 자료구조를 사용하기 전 import java.util.* 필수!
-
+```
 import java.util.*; 
 
-
+```
 Stack 선언
+```
 import java.util.*; 
-
+```
+```
 Stack<Integer> stack = new Stack<>(); //int형 스택 선언
-
+```
 
 Stack 값 삽입
+```
 Stack<Integer> stack = new Stack<>(); // int형 스택 선언
 
 stack.push(2);     // stack에 2 추가
@@ -23,9 +26,10 @@ stack.push(4);     // stack에 4 추가
 stack.push(5);     // stack에 5 추가
 
 // 2, 4, 5
-
+```
 
  Stack 값 삭제
+ ```
 Stack<Integer> stack = new Stack<>(); 
 
 stack.push(1);     // stack에 1 추가
@@ -33,17 +37,19 @@ stack.push(2);     // stack에 2 추가
 
 stack.pop();       // stack에 맨 위의 값 제거
 stack.clear();     // stack의 전체 값 제거 (초기화)
-
+```
 
 Stack의 맨 위 값 출력
+```
 Stack<Integer> stack = new Stack<>(); 
 stack.push(1);     // stack에 1 추가
 stack.push(2);     // stack에 2 추가
 
 stack.peek();     // stack의 가장 상단의 값 출력 -> 2
-
+```
 
 기타
+```
 Stack<Integer> stack = new Stack<>();
 
 stack.push(1);     // stack에 1 추가
@@ -52,7 +58,10 @@ stack.push(2);     // stack에 2 추가
 stack.contains(5); // stack에 5가 있는지 확인 -> false
 stack.size();      // stack의 크기 출력 : 2
 stack.empty();     // stack이 비어있는지 확인 (비어있다면 true)
+```
 Stack 구현
+
+```
 package stack;
 
 public class ArrayStack {
@@ -111,7 +120,7 @@ public class ArrayStack {
 }
 
 
-
+```
 
 
 java Stack 구현
