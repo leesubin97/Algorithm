@@ -28,7 +28,8 @@ public static String vpsShow(String comPut) {
 	// Stack은 Character 객체만 다루게 되게 함.
 	
 		/*
-		 * 이해한 함수 제작 의도 
+		 * 문제 이해후 함수 제작시 필요한 정리
+		 
 		 * 1. 문제에서 설명되었듯이 ( , )
 		 * 괄호가 짝이 맞아야 VPS 이외의 문자열은 
 		 * VPS가 아니다
