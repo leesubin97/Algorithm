@@ -8,16 +8,17 @@ public class Main {
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	//입력 받을 T개의 테스트 데이터
+		
 	//입력의 첫번째 줄에 나타나는 입력 데이터의 개수
-	
 	int T = sc.nextInt();
-	//컴퓨터가 랜덤으로 쓰는  괄호 문자열
-	//sc.next()
+	
+	
 	
 	
 	while(T-- > 0) {
-		
-		System.out.println( vpsShow(sc.next()));
+		//에게 받은 랜덤괄호
+		String comPeek = sc.next();
+		System.out.println( vpsShow(comPeek));
 		
 		}
 }//main
