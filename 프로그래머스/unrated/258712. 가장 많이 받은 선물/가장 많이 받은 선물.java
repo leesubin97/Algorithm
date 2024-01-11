@@ -21,8 +21,8 @@ class Solution {
         
         // STEP2. 주고 받은 현황 저장
         for(String friend : gifts){
-            String[] state = friend.split(" ");
-            giftState[indexMap.get(state[0])][indexMap.get(state[1])]++;
+            StringTokenizer stk = new StringTokenizer(friend);
+            giftState[indexMap.get(stk.nextToken())][indexMap.get(stk.nextToken())]++;
         }
         
         // STEP3. 선물 지수 계산 및 다음달 선물을 가장 많이받을 친구의 선물 수 
