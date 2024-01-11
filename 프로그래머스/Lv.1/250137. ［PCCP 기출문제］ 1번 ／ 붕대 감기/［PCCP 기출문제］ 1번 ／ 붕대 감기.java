@@ -20,7 +20,7 @@ class Solution {
         int maxHealth = health; // 최대 체력
 
         // STEP2. 공격 시 붕대 기술 사용 계산
-        // 마지막 공격 시간 이후의 붕대 감기 기술 지속 시간 계산
+        // 마지막 공격 시간 
         int lastAttackTime = attacks[attacks.length - 1][0];
 
         while (currentTime <= lastAttackTime) {
