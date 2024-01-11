@@ -11,7 +11,6 @@ class Solution {
         
         int answer = 0;
         Map<String, Integer> indexMap = new HashMap<>();
-        int gift[] = new int[friends.length];
         int giftState[][] = new int[friends.length][friends.length];
         
    
